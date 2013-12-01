@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C90D0A9E-5F90-03DE-35E1-F87508CEA99C}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\M2HNetworking\Example1\Chat.js" />
+     <Compile Include="Assets\M2HNetworking\Example2\MultiplayerMenu2.js" />
+     <Compile Include="Assets\M2HNetworking\Example2\gamescript.js" />
+     <Compile Include="Assets\M2HNetworking\Example3\GameLobby.js" />
+     <Compile Include="Assets\M2HNetworking\Example3\JoinMenu.js" />
+     <Compile Include="Assets\M2HNetworking\Example3\LobbyChat.js" />
+     <Compile Include="Assets\M2HNetworking\Example3\MainMenu.js" />
+     <Compile Include="Assets\M2HNetworking\Example3\MultiplayerMenu.js" />
+     <Compile Include="Assets\M2HNetworking\Example3\gamescript_3.js" />
+     <Compile Include="Assets\M2HNetworking\Example4\GameAssets\Scripts\FPSChat4.js" />
+     <Compile Include="Assets\M2HNetworking\Example4\GameAssets\Scripts\FPSWalker4.js" />
+     <Compile Include="Assets\M2HNetworking\Example4\GameAssets\Scripts\GameSetup.js" />
+     <Compile Include="Assets\M2HNetworking\Example4\GameAssets\Scripts\gameGUI.js" />
+     <Compile Include="Assets\M2HNetworking\Example4\GameAssets\Scripts\scoreBoard.js" />
+     <Compile Include="Assets\M2HNetworking\Example5\GameManager.js" />
+     <Compile Include="Assets\M2HNetworking\Example5\Player5.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 1\Connect.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 2\Tutorial_2A1.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 2\Tutorial_2A2.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 2\Tutorial_2A3.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 2\Tutorial_2B_Playerscript.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 2\Tutorial_2B_Spawnscript.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 3\Tutorial_3_Playerscript.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 3\Tutorial_3_Spawnscript.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 4\Tutorial_4_GameManager.js" />
+     <Compile Include="Assets\M2HNetworking\Tutorial 4\Tutorial_4_Playerscript.js" />
+     <Compile Include="Assets\M2HNetworking\_MenuScene\BackToMainMenu.js" />
+     <Compile Include="Assets\M2HNetworking\_MenuScene\MenuScript.js" />
+     <Compile Include="Assets\M2HNetworking\_MenuScene\Rotator.js" />
+     <Compile Include="Assets\M2HNetworking\zSharedAssets\MakePersistent.js" />
+     <Compile Include="Assets\RTS\AlignObjects.js" />
+     <Compile Include="Assets\RTS\AlterCamera.js" />
+     <Compile Include="Assets\RTS\Barracks.js" />
+     <Compile Include="Assets\RTS\FogOfWar.js" />
+     <Compile Include="Assets\RTS\Footman.js" />
+     <Compile Include="Assets\RTS\GUIChange.js" />
+     <Compile Include="Assets\RTS\Health.js" />
+     <Compile Include="Assets\RTS\HumanPeasant.js" />
+     <Compile Include="Assets\RTS\HurtEnemy.js" />
+     <Compile Include="Assets\RTS\Money.js" />
+     <Compile Include="Assets\RTS\SelectUnit.js" />
+     <Compile Include="Assets\RTS\Sword.js" />
+     <Compile Include="Assets\Roguelike\AlterCamera2.js" />
+     <Compile Include="Assets\Roguelike\BulletBehavior.js" />
+     <Compile Include="Assets\Roguelike\CollectKeys.js" />
+     <Compile Include="Assets\Roguelike\EnemyBehavior.js" />
+     <Compile Include="Assets\Roguelike\FanBehavior.js" />
+     <Compile Include="Assets\Roguelike\KillPlayer.js" />
+     <Compile Include="Assets\Roguelike\MoveObject.js" />
+     <Compile Include="Assets\Roguelike\MovePlayer.js" />
+     <Compile Include="Assets\Roguelike\OpenDoors.js" />
+     <Compile Include="Assets\Roguelike\PlayerBehavior.js" />
+     <Compile Include="Assets\Roguelike\RandomizeMap.js" />
+     <Compile Include="Assets\Roguelike\SavePoint.js" />
+     <Compile Include="Assets\Roguelike\SurvivalMode.js" />
+     <Compile Include="Assets\Roguelike\Vision.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ObliqueNear.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\PlayerRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RollABall.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RotationConstraint.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SidescrollControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+     <Compile Include="Assets\UnityObject2.js" />
+     <Compile Include="Assets\jquery.min.js" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\HighlightTextured.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\HiglightClip.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\GridHighlight.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\README.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\HighlightEdge.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\PainterShader.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\WireFrame.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\HighlightPlus.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\Highlight.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="clipper_library">
+ <HintPath>Assets\Plugins\clipper_library.dll</HintPath>
+ </Reference>
+ <Reference Include="GameDraw">
+ <HintPath>Assets\Plugins\GameDraw.dll</HintPath>
+ </Reference>
+ <Reference Include="Poly2Tri">
+ <HintPath>Assets\Plugins\Poly2Tri.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{349864FF-9986-8100-DF07-45DB4E6DCD8C}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

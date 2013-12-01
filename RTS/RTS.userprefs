@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Roguelike\RandomizeMap.js">
+    <Files>
+      <File FileName="Assets\Roguelike\EnemyBehavior.js" Line="25" Column="129" />
+      <File FileName="Assets\Roguelike\RandomizeMap.js" Line="74" Column="220" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
